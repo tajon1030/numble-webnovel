@@ -1,8 +1,8 @@
-package com.novel.numble.config.filter;
+package com.novel.numble.global.config.filter;
 
 
-import com.novel.numble.common.util.JwtTokenUtils;
-import com.novel.numble.security.CustomUserDetailService;
+import com.novel.numble.global.security.JwtTokenUtils;
+import com.novel.numble.global.security.CustomUserDetailService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

@@ -1,6 +1,6 @@
-package com.novel.numble.member.dto;
+package com.novel.numble.domain.member.dto;
 
-import com.novel.numble.member.entity.Member;
+import com.novel.numble.domain.member.entity.Member;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 

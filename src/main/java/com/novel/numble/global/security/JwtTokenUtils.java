@@ -1,4 +1,4 @@
-package com.novel.numble.common.util;
+package com.novel.numble.global.security;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

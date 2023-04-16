@@ -1,13 +1,12 @@
-package com.novel.numble.member.service;
+package com.novel.numble.domain.member.service;
 
 
-import com.novel.numble.common.exception.CustomException;
-import com.novel.numble.common.exception.ErrorCode;
-import com.novel.numble.common.util.JwtTokenUtils;
-import com.novel.numble.member.dto.SignUpRequest;
-import com.novel.numble.member.entity.Member;
-import com.novel.numble.member.repository.MemberRepository;
-import com.novel.numble.security.CustomUserDetails;
+import com.novel.numble.global.error.CustomException;
+import com.novel.numble.global.error.ErrorCode;
+import com.novel.numble.global.security.JwtTokenUtils;
+import com.novel.numble.domain.member.dto.SignUpRequest;
+import com.novel.numble.domain.member.entity.Member;
+import com.novel.numble.domain.member.repository.MemberRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;

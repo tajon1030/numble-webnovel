@@ -1,4 +1,4 @@
-package com.novel.numble.common;
+package com.novel.numble.global.common;
 
 import jakarta.persistence.EntityListeners;
 import jakarta.persistence.MappedSuperclass;

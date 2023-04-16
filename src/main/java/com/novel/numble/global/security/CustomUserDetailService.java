@@ -1,6 +1,6 @@
-package com.novel.numble.security;
+package com.novel.numble.global.security;
 
-import com.novel.numble.member.repository.MemberRepository;
+import com.novel.numble.domain.member.repository.MemberRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

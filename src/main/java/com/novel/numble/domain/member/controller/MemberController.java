@@ -1,11 +1,11 @@
-package com.novel.numble.member.controller;
+package com.novel.numble.domain.member.controller;
 
-import com.novel.numble.member.dto.LoginRequest;
-import com.novel.numble.member.dto.LoginResponse;
-import com.novel.numble.member.dto.MemberDTO;
-import com.novel.numble.member.dto.SignUpRequest;
-import com.novel.numble.member.service.MemberService;
-import com.novel.numble.security.CustomUserDetails;
+import com.novel.numble.domain.member.dto.LoginRequest;
+import com.novel.numble.domain.member.dto.LoginResponse;
+import com.novel.numble.domain.member.dto.MemberDTO;
+import com.novel.numble.domain.member.dto.SignUpRequest;
+import com.novel.numble.domain.member.service.MemberService;
+import com.novel.numble.global.security.CustomUserDetails;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

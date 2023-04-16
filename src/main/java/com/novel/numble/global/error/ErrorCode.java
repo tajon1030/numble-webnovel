@@ -1,4 +1,4 @@
-package com.novel.numble.common.exception;
+package com.novel.numble.global.error;
 
 
 import lombok.AllArgsConstructor;
