@@ -1,9 +1,9 @@
-package com.novel.numble.config;
+package com.novel.numble.global.config;
 
 
-import com.novel.numble.common.exception.CustomAuthenticationEntryPoint;
-import com.novel.numble.config.filter.JwtTokenFilter;
-import com.novel.numble.security.CustomUserDetailService;
+import com.novel.numble.global.error.CustomAuthenticationEntryPoint;
+import com.novel.numble.global.config.filter.JwtTokenFilter;
+import com.novel.numble.global.security.CustomUserDetailService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;

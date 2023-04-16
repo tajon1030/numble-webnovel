@@ -1,6 +1,6 @@
-package com.novel.numble.member.repository;
+package com.novel.numble.domain.member.repository;
 
-import com.novel.numble.member.entity.Member;
+import com.novel.numble.domain.member.entity.Member;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

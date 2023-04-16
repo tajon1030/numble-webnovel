@@ -1,7 +1,7 @@
-package com.novel.numble.security;
+package com.novel.numble.global.security;
 
 
-import com.novel.numble.member.entity.Member;
+import com.novel.numble.domain.member.entity.Member;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 

@@ -1,6 +1,6 @@
-package com.novel.numble.member.entity;
+package com.novel.numble.domain.member.entity;
 
-import com.novel.numble.common.BaseTimeEntity;
+import com.novel.numble.global.common.BaseTimeEntity;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;

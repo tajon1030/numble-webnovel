@@ -1,4 +1,4 @@
-package com.novel.numble.member.dto;
+package com.novel.numble.domain.member.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
